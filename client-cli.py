@@ -255,7 +255,7 @@ class ChatClient:
             return result["message"]
         
 if __name__=="__main__":
-    TARGET_IP = "172.18.0.3"
+    TARGET_IP = "172.16.16.102"
     TARGET_PORT = 8889
     try:
         TARGET_IP = sys.argv[1]
